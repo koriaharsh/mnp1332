@@ -1,0 +1,4 @@
+.admin-bottom-bar {
+  position: sticky;
+  z-index: 6;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@600&family=Inter:wght@500&family=Kanit:wght@400;700&display=swap");
+
+.profile-bar {
+  position: absolute;
+  width: 224px;
+  height: 100vh;
+  right: 0;
+  top: 0;
+
+  background: #c3b0e3;
+}
+
+.profile-bar-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.profile-bar-header-image {
+  padding: 10px;
+}
+
+.profile-bar-user-info {
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.user-info-text {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+}
+
+.profile-bar-note-text {
+  padding: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.profile-bar-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-bar-download-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.download-report-button {
+  /* margin-top: 5px; */
+  background: #643ca4;
+  border: 0px;
+  border-radius: 10px;
+  width: 202px;
+  height: 34px;
+  color: #f4f4f4;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+}
+
+.profile-bar-my-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

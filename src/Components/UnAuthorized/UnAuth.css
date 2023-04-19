@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=IBM+Plex+Sans+Thai+Looped:wght@600&family=Inter:wght@500&family=Kanit:wght@400;700&family=Public+Sans:wght@300&display=swap");
+
+.unauth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.unauth-text {
+  font-family: "Gotu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  /* line-height: 212px; */
+
+  color: #643ca4;
+}
+
+.unauth-text-2 {
+  font-family: "Gotu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  /* line-height: 212px; */
+
+  color: #7d689e;
+}
+
+.unauth-btn {
+  padding: 5px;
+  background: #643ca4;
+  border: 0px solid;
+  border-radius: 20px;
+  color: white;
+  width: 200px;
+}
+
+@media screen and (max-width: 550px) {
+  .unauth-text {
+    font-family: "Gotu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    /* line-height: 212px; */
+
+    color: #643ca4;
+  }
+
+  .unauth-text-2 {
+    font-family: "Gotu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    /* line-height: 212px; */
+
+    color: #7d689e;
+  }
+}

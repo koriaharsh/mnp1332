@@ -1,0 +1,35 @@
+.about-scroll-container {
+  overflow: auto;
+  width: 70%;
+  height: 70vh;
+  background: #edeaf7;
+  padding: 20px;
+  /* border-radius: 30px 0px 0px 30px; */
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.about-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+
+  margin-top: 7vh;
+
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  color: #643ca4;
+}
+
+.about-scroll-container::-webkit-scrollbar {
+  width: 0.35rem;
+  background-color: #edeaf7;
+}
+
+.about-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #643ca4;
+  border-radius: 10px;
+}

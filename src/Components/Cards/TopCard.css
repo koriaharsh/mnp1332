@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Hind+Vadodara:wght@300&family=IBM+Plex+Sans+Thai+Looped:wght@600&family=Inter:wght@500&family=Kanit:wght@400;700&family=Public+Sans:wght@300&display=swap");
+
+.topcard {
+  /* width: 1440px; */
+  height: 290px;
+  width: 100%;
+  /* left: 0px;
+  top: 69px; */
+
+  background: #d9d9d9;
+}
+
+.topcard-title {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 48px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #643ca4;
+  height: 100px;
+
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.topcard-secondary-title {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  /* line-height: 48px; */
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #1e0841;
+  height: 100px;
+  text-align: center;
+  width: 75%;
+}
+
+.topcard-sec-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.topcard-sec-btn {
+  border: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  background: #643ca4;
+  border-radius: 30px;
+  color: #d9d9d9;
+}
+
+@media screen and (max-width: 550px) {
+  .topcard-title {
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+
+    color: #643ca4;
+    height: 100px;
+
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+}
+
+/* @media screen and (max-width: 1160px) {
+  .topcard-title {
+    font-family: "Hind Vadodara";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 48px;
+
+    letter-spacing: 0.05em;
+
+    color: #643ca4;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+  }
+} */

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap");
+
+.admin-nav-container {
+  position: fixed;
+  left: 70px;
+  top: 30px;
+  width: 95%;
+}
+
+.admin-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.admin-navbar {
+  height: 50px;
+  width: 90%;
+  background: #bface2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.admin-navbar-title {
+  padding: 10px;
+  margin-left: 10px;
+  width: fit-content;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  color: #414141;
+  line-height: 30px;
+  font-size: 21px;
+}
+
+.admin-navbar-search {
+  width: fit-content;
+  border-radius: 20px;
+  height: 25px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.admin-navbar-search-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.search-btn {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.d-flex-rev {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.admin-navbar-username {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: 500;
+  /* font-size: 30px; */
+}
+
+.admin-navbar-username-logo {
+  background-color: #824ee2;
+  /* margin-left: 50%; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* margin: 5px;
+  padding: 5px; */
+  font-size: 1.5em;
+  color: aliceblue;
+}
+
+.admin-flex-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-navbar-search-container,
+.search-btn {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  .admin-nav-container {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    left: 0px;
+  }
+  .admin-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .admin-navbar-search-container,
+  .search-btn,
+  .admin-txt {
+    display: none;
+  }
+}

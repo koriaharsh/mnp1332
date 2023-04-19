@@ -1,0 +1,18 @@
+.App {
+  background-color: #edeaf7;
+  height: 100vh;
+}
+
+@media screen and (max-width: 550px) {
+  .App {
+    background-color: #edeaf7;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1160px) and (min-width: 550px) {
+  .App {
+    background-color: #edeaf7;
+    height: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.mental-title {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  /* line-height: 48px; */
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #643ca4;
+}
