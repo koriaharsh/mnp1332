@@ -62,6 +62,7 @@ function App() {
               style={{ color: "#371567" }}
             /> */}
             {/* </div> */}
+            <LoginCard />
             <Routes>
               {/* Public Route */}
               <Route path="/" element={<LoginCard />} />
